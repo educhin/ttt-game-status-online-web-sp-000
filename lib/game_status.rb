@@ -59,3 +59,11 @@ def over? (board)
     false
   end
 end
+
+def winner?(board)
+  if won?(board)
+    win_combo[0]
+  else
+    nil
+  end
+end
