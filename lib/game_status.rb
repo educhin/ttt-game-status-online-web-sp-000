@@ -29,7 +29,7 @@ def won? (board)
        return win_combo
     else
       if full?(board) || board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-       false
+       return false
       end
     end
   end
