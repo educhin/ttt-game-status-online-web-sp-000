@@ -49,3 +49,13 @@ def draw? (board)
     end
   end
 end
+
+def over? (board)
+  if won?(board)
+    true
+  elsif draw?(board)
+    true
+  else
+    false
+  end
+end
